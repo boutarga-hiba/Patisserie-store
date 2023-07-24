@@ -1,0 +1,90 @@
+@font-face {
+  font-family: PureItalic;
+  src: url(../../src/assets/fonts/GreatVibes-Regular.ttf);
+}
+@font-face {
+  font-family: mince;
+  src: url(../../src/assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../../src/assets/fonts/PTSerif-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* .header {
+  width: 98.6vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 999;
+}
+* .header .logo {
+  width: 140px;
+  height: 100px;
+  cursor: pointer;
+}
+* .header .logo img {
+  width: 100%;
+  height: 100%;
+}
+* .header .parent {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 90%;
+  gap: 36px;
+}
+* .header .parent .profil {
+  text-align: center;
+  color: #c9a74d;
+  font-family: PureItalic;
+  font-size: 18px;
+}
+* .header .parent .panier {
+  color: #c9a74d;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .header .parent .panier .pani {
+  font-size: 6px;
+  background-color: red;
+  border-radius: 90px;
+  width: 17px;
+  height: 18px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  right: 210px;
+}
+* .header .parent .login {
+  font-family: "mince";
+  font-weight: 500;
+  color: #c9a74d;
+  font-size: 17px;
+  cursor: pointer;
+}
+* .header .parent .signup {
+  font-family: "mince";
+  font-weight: 500;
+  color: #c9a74d;
+  font-size: 17px;
+  cursor: pointer;
+}
+* .header .parent .deconnexion {
+  font-family: "mince";
+  font-weight: 500;
+  color: #c9a74d;
+  font-size: 17px;
+  cursor: pointer;
+}

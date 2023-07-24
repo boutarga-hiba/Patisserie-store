@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+  font-family: PureItalic;
+  src: url(../../../../src/assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: mince;
+  src: url(../../../../src/assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../../../../src/assets/fonts/PTSerif-Regular.ttf);
+}
+.carousel {
+  max-width: 100vw;
+  position: relative;
+}
+.carousel button span {
+  text-decoration-color: #c9a74d;
+}
+.carousel img {
+  height: 100vh;
+}
+.carousel .titre {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 95%;
+  left: 50%;
+  font-family: mince;
+  color: #c9a74d;
+  font-size: 30px;
+  animation: glowing 0.9s linear infinite;
+  width: 320px;
+  font-weight: lighter;
+}
+@keyframes glowing {
+  0% {
+    color: #c99e29;
+    text-shadow: 0 0 20px #c9a74d, 0 0 40px #c9a74d, 0 0 80px #c9a74d, 0 0 160px #c9a74d;
+  }
+  100% {
+    color: #ceb97d;
+    text-shadow: 0 0 20px #c9a74d, 0 0 40px #c9a74d, 0 0 80px #c9a74d, 0 0 160px #c9a74d;
+  }
+}
+
+.carousel-control-prev::after {
+  /* Remplacez la couleur par celle de votre choix */
+  content: "<";
+  font-size: 60px;
+  color: #c9a74d;
+  font-family: mince;
+  font-weight: lighter;
+}
+
+/* Changer la couleur de la flèche suivante (right) */
+.carousel-control-next::after {
+  /* Remplacez la couleur par celle de votre choix */
+  content: ">";
+  font-size: 60px;
+  color: #c9a74d;
+  font-family: mince;
+  font-weight: lighter;
+}

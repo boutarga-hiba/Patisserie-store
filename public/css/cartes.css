@@ -1,0 +1,84 @@
+@font-face {
+  font-family: PureItalic;
+  src: url(../../../../src/assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: mince;
+  src: url(../../../../src/assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../../../../src/assets/fonts/PTSerif-Regular.ttf);
+}
+.cartes {
+  background-color: black;
+  width: 98.9vw;
+  height: 50vh;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cartes .carte1 {
+  border-right: 1px solid #c9a74d;
+  padding-right: 80px;
+  height: 60%;
+}
+.cartes .carte1 h3 {
+  font-family: "mince";
+  color: #c9a74d;
+  text-align: center;
+  border-bottom: 1px solid #c9a74d;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+}
+.cartes .carte1 p {
+  margin-top: 23px;
+  color: white;
+  width: 260px;
+  font-size: 19px;
+  text-align: center;
+}
+.cartes .carte2 {
+  border-right: 1px solid #c9a74d;
+  padding-right: 80px;
+}
+.cartes .carte2 h3 {
+  font-family: "mince";
+  color: #c9a74d;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c9a74d;
+}
+.cartes .carte2 p {
+  margin-top: 23px;
+  color: white;
+  width: 360px;
+  font-size: 19px;
+  text-align: center;
+}
+.cartes .carte3 {
+  height: 65%;
+}
+.cartes .carte3 h3 {
+  font-family: "mince";
+  color: #c9a74d;
+  text-align: center;
+  border-bottom: 1px solid #c9a74d;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+.cartes .carte3 img {
+  margin-top: 23px;
+  width: 350px;
+  height: 200px;
+}

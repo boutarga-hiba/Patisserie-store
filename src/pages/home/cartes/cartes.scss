@@ -1,0 +1,99 @@
+@font-face {
+    font-family: PureItalic;
+    src: url(../../../../src/assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+    font-family: mince;
+    src: url(../../../../src/assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(../../../../src/assets/fonts/PTSerif-Regular.ttf);
+}
+.cartes{
+    background-color: black;
+    width: 98.9vw;
+    height: 50vh;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+    .carte1{
+        // margin-bottom: 24px;
+        border-right: 1px solid #c9a74d;
+        padding-right: 80px;
+        height: 60%;
+        h3{
+            font-family: "mince";
+            color:#c9a74d;
+            text-align: center;
+            border-bottom: 1px solid #c9a74d;
+            // width: 190px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -18px;
+            // &:hover{
+            //     text-decoration:underline;
+            //     color: #c9a74d;
+            // }
+        }
+        p{
+            margin-top: 23px;
+            color: white;
+            width: 260px;
+            font-size: 19px;
+            text-align: center;
+
+        }
+       
+    }
+
+    .carte2{
+        border-right: 1px solid #c9a74d;
+        padding-right: 80px;
+        h3{
+            font-family: "mince";
+            color:#c9a74d;
+            text-align: center;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #c9a74d;
+
+        }
+        p{
+            margin-top: 23px;
+
+            color: white;
+            width: 360px;
+            font-size: 19px;
+            text-align: center;
+        }
+       
+    }
+    .carte3{
+        height: 65%;
+        h3{
+            font-family: "mince";
+            color:#c9a74d;
+            text-align: center;
+            border-bottom: 1px solid #c9a74d;
+            // width: 190px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -10px;
+        }
+        img{
+            margin-top: 23px;
+            width: 350px;
+            height: 200px;
+        }
+    }
+}

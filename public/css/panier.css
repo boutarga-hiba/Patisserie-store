@@ -1,0 +1,117 @@
+@font-face {
+  font-family: PureItalic;
+  src: url(../../assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: mince;
+  src: url(../../assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../../assets/fonts/PTSerif-Regular.ttf);
+}
+.p {
+  width: 98.9vw;
+  display: flex;
+  height: max-content;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.p .test {
+  width: 70%;
+  height: 64%;
+  border: 1px solid #c9a74d;
+  margin-top: 70px;
+}
+.p .test .panie::-webkit-scrollbar {
+  display: none;
+}
+.p .test .panie .paniez {
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+.p .test .panie .paniez .product {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #c9a74d;
+  padding-bottom: 3vh;
+}
+.p .test .panie .paniez .product .cercle {
+  border-radius: 50%;
+  border: 1px solid #c9a74d;
+  height: 40px;
+  width: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.p .test .panie .paniez .product h1 {
+  color: #c9a74d;
+  font-size: 15px;
+}
+.p .test .panie .paniez .product img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #c9a74d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p .test .panie .paniez .product p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  color: aliceblue;
+}
+.p .img {
+  width: 10vw;
+  height: max-content;
+}
+.p .img img {
+  width: 100%;
+  height: max-content;
+  background-color: brown !important;
+}
+.p .somme {
+  position: absolute;
+  bottom: 1%;
+  width: 70%;
+  height: 10%;
+}
+.p .somme .total {
+  color: #c9a74d;
+}
+.p .somme .total .style {
+  font-family: PureItalic;
+  font-weight: 800;
+  font-size: 20px;
+}
+.p .somme .total .prix {
+  font-family: regular;
+  font-size: 23px;
+  font-weight: 800;
+}
+.p .somme .btn-checkout {
+  font-family: PureItalic;
+  font-size: 18px;
+  width: 19%;
+  background-color: black;
+  color: #c9a74d;
+  border: 1px solid #c9a74d;
+}
+.p .somme .btn-checkout:hover {
+  background-color: #c9a74d;
+  color: black;
+}

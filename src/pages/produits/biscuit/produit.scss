@@ -1,0 +1,106 @@
+@font-face {
+    font-family: PureItalic;
+    src: url(../../../../src/assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+    font-family: mince;
+    src: url(../../../../src/assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(../../../../src/assets/fonts/PTSerif-Regular.ttf);
+}
+.biscui{
+width: 98.9vw;
+height: auto;
+background-color: black;
+padding-top: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+.titre{
+  position: absolute;
+  top: 90px;
+  color: #c9a74d;
+  font-family: PureItalic;
+  h3{
+    font-size: 36px;
+    // border-bottom: #c9a74d;
+    border-bottom: 1px solid #c9a74d;
+    padding-bottom: 10px;
+  }
+}
+.cartes{
+width: 84%;
+height: auto;
+flex-wrap: wrap;
+    .carte{
+        width: 340px;
+        background-color: #131313;        
+        height: 470px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 90px;
+
+        // margin-top: -20px;
+        // padding-top: -990px;
+        h4{
+            color: #c9a74d;
+            font-family: "italic";
+            text-align: center;
+        }
+
+        img{
+            width: 140px;
+            height: 130px;
+            border-radius: 80px;
+            border: 1px solid #c9a74d;
+        }
+        h5{
+            color: #c9a74d;
+        }
+        p{
+            font-family: regular;
+            color: white;
+            text-align: center;
+        }
+        button{
+            border-radius: 15px;
+            width: 150px;
+            height: 5vh;
+            border: none;
+            font-family: PureItalic;
+            color: black;
+            background-color: #c9a74d;
+
+            &:hover{
+                background-color: #131313;
+                color: #c9a74d;
+            }
+        }
+
+        .qte{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 63%;
+            .btn-qte{
+                background-color: #131313;
+                color: #c9a74d;
+                font-size: 25px;
+                border: 1px solid #c9a74d;
+                width: 28px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+}

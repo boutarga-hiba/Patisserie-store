@@ -1,0 +1,200 @@
+@font-face {
+  font-family: PureItalic;
+  src: url(../../assets/fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: mince;
+  src: url(../../assets/fonts/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(../../assets/fonts/PTSerif-Regular.ttf);
+}
+.inscrire {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98.9vw;
+  height: 100vh;
+  background-color: #131313;
+}
+.inscrire .img {
+  width: 350px;
+  height: 500px;
+}
+.inscrire .img img {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #c9a74d;
+  border-left: 1px solid #c9a74d;
+  border-bottom: 1px solid #c9a74d;
+}
+.inscrire .inputs_inscription {
+  width: 330px;
+  height: 66.3vh;
+  background-color: #080a0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.inscrire .inputs_inscription h4 {
+  color: #c9a74d;
+  font-family: mince;
+  padding-top: 20px;
+}
+.inscrire .inputs_inscription div {
+  width: 200px;
+}
+.inscrire .inputs_inscription div label {
+  color: #c9a74d;
+  font-family: regular;
+}
+.inscrire .inputs_inscription div input {
+  width: 190px;
+  border-radius: 6px;
+  border: none;
+  font-family: PureItalic;
+  padding-left: 5px;
+}
+.inscrire .inputs_inscription div input:focus {
+  outline: none;
+}
+.inscrire .inputs_inscription button {
+  width: 100px;
+  height: 5vh;
+  background-color: #080a0e;
+  border: none;
+  border-radius: 16px;
+  margin-top: 15px;
+  border: 1px solid #c9a74d;
+  color: #c9a74d;
+}
+.inscrire .inputs_inscription button:hover {
+  background-color: #c9a74d;
+  color: #131313;
+}
+.inscrire .inputs_inscription .navigation {
+  color: #c9a74d;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.inscrire .inputs_inscription .navigation .nav {
+  color: #c9a74d;
+  text-decoration: none;
+}
+.inscrire .vide {
+  width: 240px;
+  height: 130px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #c9a74d;
+  box-shadow: 9px 2px 150px #c9a74d;
+  background-color: rgba(27, 26, 25, 0.9960784314);
+}
+.inscrire .vide p {
+  font-family: regular;
+  font-weight: 800;
+  color: white;
+}
+.inscrire .vide button {
+  text-decoration: none;
+  width: 55px;
+  height: 40px;
+  border-radius: 90px;
+  border: 1px solid #c9a74d;
+  background-color: rgba(112, 59, 6, 0.862745098);
+}
+.inscrire .vide button .btn_existe {
+  text-decoration: none;
+  color: #080a0e;
+}
+.inscrire .modal-existe {
+  width: 250px;
+  height: 130px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: rgba(27, 26, 25, 0.9960784314);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #c9a74d;
+  box-shadow: 9px 2px 150px #c9a74d;
+}
+.inscrire .modal-existe p {
+  font-family: regular;
+  font-weight: 800;
+  color: white;
+}
+.inscrire .modal-existe button {
+  text-decoration: none;
+  width: 55px;
+  height: 42px;
+  border-radius: 90px;
+  border: 1px solid #c9a74d;
+  background-color: rgba(112, 59, 6, 0.862745098);
+}
+.inscrire .modal-existe button .btn_existe {
+  text-decoration: none;
+  color: #080a0e;
+}
+.inscrire .modal_Inscription {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(27, 26, 25, 0.9960784314);
+  border: 1px solid #c9a74d;
+  box-shadow: 9px 2px 150px #c9a74d;
+  border-radius: 8px;
+  display: none;
+}
+.inscrire .modal_Inscription h5 {
+  color: #c9a74d;
+  font-family: PureItalic;
+}
+.inscrire .modal_Inscription h6 {
+  font-family: regular;
+  font-weight: 800;
+  color: white;
+}
+.inscrire .modal_Inscription button {
+  text-decoration: none;
+  width: 55px;
+  height: 45px;
+  border-radius: 90px;
+  border: 1px solid #c9a74d;
+  background-color: rgba(112, 59, 6, 0.862745098);
+}
+.inscrire .modal_Inscription button .btn_modal {
+  text-decoration: none;
+  color: #080a0e;
+}
